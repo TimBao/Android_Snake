@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_start" 
+          android:showAsAction="never" 
+          android:title="@string/menu_start">
+    </item>
+
+    <item android:id="@+id/menu_pause" 
+          android:showAsAction="never" 
+          android:title="@string/menu_pause">
+    </item>
+
+    <item android:id="@+id/menu_score" 
+          android:showAsAction="never" 
+          android:title="@string/menu_score">
+    </item>
+
+    <item android:id="@+id/menu_help" 
+          android:showAsAction="never" 
+          android:title="@string/menu_help">
+    </item>
+
+</menu>
