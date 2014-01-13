@@ -3,7 +3,7 @@
 ## How to build?
 
 ### use ant
-> under the root path, typing `ant release` or `ant debug`
+> under the root path, typing `android update project -p .` to update local.properties to set the `sdk.dir` and then `ant release` or `ant debug`.
 
 ### use eclipse
 > import the project to eclipse and build it is OKay.
