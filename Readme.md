@@ -7,3 +7,7 @@
 
 ### use eclipse
 > import the project to eclipse and build it is OKay.
+
+## What I do?
+1. Add touch screen support.
+2. Add user score save.
