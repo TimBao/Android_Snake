@@ -28,7 +28,7 @@ public class UserInfoActivity extends ListActivity {
         ListAdapter adapter = new SimpleAdapter(this, 
                                                 listItem,
                                                 R.layout.userinfo_layout,
-                                                new String[] { "æŽ’å��", "å§“å��", "å¾—åˆ†" },
+                                                new String[] { "query", "name", "score" },
                                                 new int[] {R.id.query, R.id.name, R.id.score}
                                                 );
 
@@ -46,9 +46,9 @@ public class UserInfoActivity extends ListActivity {
             userInfo = snakeDB.getUserInfo();
             for (int i = 0; i < size; ++i) {
                 HashMap<String, String> map = new HashMap<String, String>();
-                map.put("æŽ’å��", String.valueOf(i+1));
-                map.put("å§“å��", userInfo[i][0]);
-                map.put("å¾—åˆ†", userInfo[i][1]);
+                map.put("query", String.valueOf(i+1));
+                map.put("name", userInfo[i][0]);
+                map.put("score", userInfo[i][1]);
                 listItem.add(map);
             }
         }
