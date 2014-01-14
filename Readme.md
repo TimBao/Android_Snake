@@ -11,3 +11,4 @@
 ## What I do?
 1. Add touch screen support.
 2. Add user score save.
+3. Add multiple languages support. (English and Chinese now)
