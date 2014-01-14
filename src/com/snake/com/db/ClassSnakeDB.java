@@ -68,6 +68,20 @@ public class ClassSnakeDB {
         }
     }
 
+    public boolean deleteUserInfo(String name, String score) {
+        SQLiteDatabase db = dbManager.openDataBaseByName(DATABASE_NAME);
+        if (db != null) {
+            String sql = "DELETE FROM " + TABLE_NAME + " WHERE name = '" + name + "' AND score = " + score + ";";
+            try {
+                db.execSQL(sql);
+            } catch (Exception e) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
     public Cursor getCursorByTableName() {
         if (dbManager != null) {
             SQLiteDatabase db = dbManager.openDataBaseByName(DATABASE_NAME);

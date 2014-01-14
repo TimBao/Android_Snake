@@ -36,6 +36,7 @@
     <string name="message_restart">Game is running, do you want restart？</string>
     <string name="button_yes">Yes</string>
     <string name="button_no">No</string>
+    <string name="button_del">del</string>
     <string name="title_activity_user_info">User Rank</string>
 
 </resources>
