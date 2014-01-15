@@ -102,15 +102,19 @@ public class Snake extends Activity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        if(item.getItemId() == R.id.menu_start) {
+        if (item.getItemId() == R.id.menu_start) {
             mSnakeView.StartNewGame();
-        } else if(item.getItemId() == R.id.menu_pause) {
+        } else if (item.getItemId() == R.id.menu_pause) {
             if (mSnakeView.getMode() == SnakeView.RUNNING) {
                 mSnakeView.setMode(SnakeView.PAUSE);
             }
-        } else if(item.getItemId() == R.id.menu_score) {
+        } else if (item.getItemId() == R.id.menu_score) {
             Intent intent =new Intent();                
             intent.setClass(this, UserInfoActivity.class);
+            startActivity(intent);
+        } else if (item.getItemId() == R.id.menu_help) {
+            Intent intent =new Intent();                
+            intent.setClass(this, HelpActivity.class);
             startActivity(intent);
         }
         return super.onContextItemSelected(item);

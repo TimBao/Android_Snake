@@ -38,5 +38,10 @@
     <string name="button_no">否</string>
     <string name="button_del">删除</string>
     <string name="title_activity_user_info">用户排名</string>
+    <string name="title_activity_help">帮助</string>
+    <string name="leftGesture">向左</string>
+    <string name="rightGesture">向右</string>
+    <string name="upGesture">向上</string>
+    <string name="downGesture">向下</string>
 
 </resources>

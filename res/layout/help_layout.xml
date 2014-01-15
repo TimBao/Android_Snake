@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+        <TextView android:id="@+id/leftGesture"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/leftGesture"
+                  android:background="@drawable/left"
+                  android:layout_margin="2dp" />
+
+        <TextView android:id="@+id/rightGesture"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/rightGesture"
+                  android:background="@drawable/right"
+                  android:layout_margin="2dp" />
+
+        <TextView android:id="@+id/upGesture"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/upGesture"
+                  android:background="@drawable/up"
+                  android:layout_margin="2dp" />
+
+        <TextView android:id="@+id/downGesture"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/downGesture"
+                  android:background="@drawable/down"
+                  android:layout_margin="2dp" />
+
+        <TextView android:id="@+id/author"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Email:  dabao0521@gmail.com"
+                  android:layout_margin="2dp" />
+
+</LinearLayout>

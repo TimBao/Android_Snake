@@ -38,5 +38,10 @@
     <string name="button_no">No</string>
     <string name="button_del">del</string>
     <string name="title_activity_user_info">User Rank</string>
+    <string name="title_activity_help">Help</string>
+    <string name="leftGesture">Left</string>
+    <string name="rightGesture">Right</string>
+    <string name="upGesture">Up</string>
+    <string name="downGesture">Down</string>
 
 </resources>
