@@ -12,3 +12,7 @@
 1. Add touch screen support.
 2. Add user score save, delete.
 3. Add multiple languages support. (English and Chinese now)
+
+### TODO
+1. Sound support.
+2. Different level has its own barriers.
